@@ -17,8 +17,25 @@ public class Ejercicio3 {
 	 *  almacenar los caracteres que se indican en cada caso.
 	 *  
 	 */
+
+	/* Aqui lo que querai hacer es que segun las posiciones de la cadena se fuese almacenando el valor en la "primera fila",
+	 * o en la "segunda fila"*/
+		public static int [] stringToArray2D(String cadena, String [] [] matriz) {
+			
+			
+				for (int i=0; i<matriz.length;i++)
+					
+						if (i % 2==0) {
+							matriz = {i}{};
+						}
+							
+							
+						else if	(i % 2!=0) {
+							matriz= {}{i};
+						}
+			    	   
 	
-	public static ...
+
 	
 	/*
 	 * 1 punto
@@ -30,8 +47,12 @@ public class Ejercicio3 {
 	 * 
 	 */
 	
-	public static void main(String[] args) {
-		
-	}
+			    		
+		public static void main(String[] args) {
+
+		int  [] [] matriz;
+
+			System.out.println(stringToArray2D("1, 2, 3, 4", matriz ));
+			       }
 
 }

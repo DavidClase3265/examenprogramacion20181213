@@ -14,7 +14,31 @@ public class Ejercicio1 {
 	 * donde num1, num2, num3, ..., numN son los números almacenados en el vector.
 	 */
 	
-	public static ...
+	
+	
+	/*  Hago el metodo para que retorne un vector que es el que se utiliza en el ejercicio 4, posteriormente hago que
+	 * se muestre en pantalla "el vector es" para que se muestre, y hago un for ya que quiero que tenga cierto valor depende
+	 * la "i" */
+	
+	public static int[] mostrarVector(int [] vector) {
+
+				System.out.println("El vector es: ");
+						
+				for (int i=0; i<vector.length;i++) {
+				System.out.print (vector[i]) ;
+			}
+	
+	return vector;		
+	}
+			
+			
+			
+				
+				
+
+
+
+	// En est
 	
 	/* 
 	 * 1 punto
@@ -27,6 +51,22 @@ public class Ejercicio1 {
 	 * donde 'c1', 'c2', 'c3', ...., 'cN' son los caracteres almacenados en el vector.
 	 */
 
-	public static ...
 	
+	
+	/* hago basicamente lo mismo que el otro ejercicio pero esta vez con char*/
+	public static char[] mostrarVector(char [] vector) {
+
+		System.out.println("El vector es: ");
+				
+		for (int i=0; i<vector.length;i++) {
+		System.out.print (vector[i]) ;
+		
+		
+	}
+		return vector;	
+	}
+
+	
+
 }
+

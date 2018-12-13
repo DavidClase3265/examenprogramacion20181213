@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio2 {
 
 	/* 
@@ -14,7 +16,10 @@ public class Ejercicio2 {
 	 */
 	
 	public static ...
-	
+
+
+
+
 	
 	/*
 	 * 1 punto
@@ -31,7 +36,18 @@ public class Ejercicio2 {
 	 * 
 	 */
 	
+	
+	
+	
+	//Este Ejercicio no lo hago, hago el 3
 	public static void main(String[] args) {
+		
+	Random r= new Random();
+	
+	int [] vector = new int[r.nextInt(201) + 100];
+	
+	for (int i=1; i<vector.length; i++)
+
 		
 		
 	}
